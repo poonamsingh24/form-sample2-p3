@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+* {
+  box-sizing: boder box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  background-color: rgb(7, 154, 154);
+}
+
+.form-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.form h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.userbox {
+  border: 0;
+  outline: none;
+  background-color: rgb(246, 243, 243);
+  border-radius: 100px;
+  margin: 7px 0;
+  padding: 12px 35px;
+  width: 350px;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: rgb(177, 173, 173);
+  padding: 5px;
+}
+
+.btn {
+  background-color: rgb(7, 154, 154);
+  color: whitesmoke;
+  padding: 8px 25px;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.icons p {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+}
+.socialmedia-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 2px;
+}
+.socialmedia-icons i {
+  cursor: pointer;
+  transition: color 0.15s;
+  margin: 5px;
+}
+.socialmedia-icons i:hover {
+  color: grey;
+}
